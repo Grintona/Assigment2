@@ -60,7 +60,11 @@ public abstract class Vehicle {
 
     @Override
     public String toString() {
-        return "id= " + getId() + "Model= " + getModel() + "Year= " + getYear() + "BasePrice= " + getBasePrice();
+        return "id= " + getId() + "\n" +
+                "Model= " + getModel() + "\n" +
+                "Year= " + getYear() + "\n" +
+                "BasePrice= " + getBasePrice() + "\n";
+
     }
 
 }

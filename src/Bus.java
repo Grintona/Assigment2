@@ -13,7 +13,7 @@ public class Bus extends Vehicle implements Servicable {
     @Override
     public String toString()
     {
-        return super.toString()+" BusCapacity="+passengerCapacity;
+        return super.toString()+"BusCapacity="+passengerCapacity + "\n" + "********";
     }
 
     public void performService() {

@@ -12,7 +12,7 @@ public class Car extends Vehicle implements Servicable {
     @Override
     public String toString()
     {
-        return super.toString() + " numberOfDoors=" + numberOfDoors;
+        return super.toString() + "numberOfDoors=" + numberOfDoors + "\n" + "********";
     }
 
     public int getNumberOfDoors() {

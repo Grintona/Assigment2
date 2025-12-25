@@ -15,6 +15,8 @@ public class Main{
         b.performService();
         System.out.println(s.getServiceIntervalKm());
         System.out.println(b.getServiceIntervalKm());
-
+        //Third task checking
+        FleetApp app = new FleetApp();
+        app.run();
     }
 }
